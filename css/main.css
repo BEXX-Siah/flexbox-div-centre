@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #ccc;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #3d3d5c;
   height: 100%;
 }
 
@@ -118,9 +118,9 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  line-height: 1.3em;
+  font-size: 1em;
+  background-color: #3d3d5c;
   height: 300px;
   display: flex;
   width: 30%;
@@ -128,8 +128,20 @@ body {
   align-items: center;
 }
 
+.div-1  {
+  padding:  1.5em;
+}
 
+.div-2  {
+  border-left:  .05em solid #e1e1ea;
+  border-right: .05em solid #e1e1ea;
+  padding: 1.5em;
 
+}
+
+.div-3  {
+  padding:  1.5em;
+}
 
 /* ==========================================================================
    Helper classes
